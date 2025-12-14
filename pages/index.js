@@ -27,7 +27,8 @@ export default function Home(){
         <VideoGallery items={[
           { id:'v1', src:'/media/2.mp4', thumb:'/media/Thumbnail2.jpg', caption:'Denture finishing'},
           { id:'v2', src:'/media/video2.mp4', thumb:'/media/Thumbnail1.webp', caption:'Polishing workflow'},
-          { id:'v3', src:'/media/Video3.mp4', thumb:'/media/Thumbnail3.webp', caption:'Clinical Explanation by the Dentist'}
+          { id:'v3', src:'/media/Video3.mp4', thumb:'/media/Thumbnail3.webp', caption:'Clinical Explanation by the Dentist'},
+          { id:'v4', src:'/media/Video4.mp4', thumb:'/media/Thumbnail4.png', caption:'Dental Scaling Procedure'}
         ]} />
         <Testimonials />
         <ContactBlock />
